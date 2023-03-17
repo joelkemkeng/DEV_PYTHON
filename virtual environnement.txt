@@ -1,0 +1,28 @@
+venv
+
+create environnement 
+
+entre and active folder project
+> python -m venv .venv/name_project_or_folder_name
+
+Make CRTL + SHIFT + P
+select python interpreteur in vscode
+
+
+in vscode , setting , venv path
+ modify default emplacement pyhton venv 
+ Make in input 
+ ${workspaceFolder}/.venv
+
+
+-----------------------------
+
+pipenv
+
+create environement .
+
+> pipenv shell
+
+execute python app
+
+> python app.py
