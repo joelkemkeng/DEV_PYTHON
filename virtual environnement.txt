@@ -1,28 +1,75 @@
 venv
 
-create environnement 
 
-entre and active folder project
-> python -m venv .venv/name_project_or_folder_name
+************ install flask et sql ************
 
-Make CRTL + SHIFT + P
-select python interpreteur in vscode
+	> flask pipenv install flask flask-sqlalchemy
 
-
-in vscode , setting , venv path
- modify default emplacement pyhton venv 
- Make in input 
- ${workspaceFolder}/.venv
+*********************************************
 
 
------------------------------
 
-pipenv
+********************* venv environement******
 
-create environement .
+++ créer un environnement 
+ - projet de dossier entre et actif
 
-> pipenv shell
+	> python -m venv .venv/name_project_or_folder_name
 
-execute python app
 
-> python app.py
+++ activation de l'environement venv
+
+	> source .venv/name_environnement/Scripts/activate.ps1
+
+
+++ deactiver un environnement 
+ 
+	> deactivate
+
+
+
+Faire CRTL + MAJ + P
+sélectionner l'interpréteur python dans vscode
+
+
+dans vscode, réglage, chemin venv
+modifier l'emplacement par défaut pyhton venv 
+Faire en entrée 
+${workspaceFolder}/.venv
+
+
+
+
+---------------pipenv--------------
+
+
+
+************ install flask et sql ************
+
+	> pipenv install flask flask-sqlalchemy
+
+++ create environement or activate.
+
+	> pipenv shell
+
+++ execute python app
+
+	> python app.py
+
+++ change varirable path version python
+
+	> pipenv --python C:\Users\franc\AppData\Local\Programs\Python\Python38\python.exe
+
+
+---------------------------------------------------------------------
+
+
+-----------------------  REQUIRE TO INSTALL environnements AND MANAGE IN UBUNTU ----
+
+https://www.delftstack.com/fr/howto/python/how-to-create-and-activate-a-python-virtual-environment/
+
+
+
+
+
+-----------------
